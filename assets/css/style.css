@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+        /* CSS NAVBAR */
+.navigasi{
+    display: flex;
+}
+
+.isiNavigasi{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    position: fixed;
+}
+
+.logoNavigasi{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+.fName{
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Brush Script MT";
+}
+
+.lName{
+    color: black;
+    font-weight: 500;
+    padding-left: 6px;
+    font-size: 40px;
+    font-family: "Brush Script MT";
+}
+
+.menuNavigasi{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 35px;
+}
+
+.menuNavigasi li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.menuNavigasi li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.notActive:hover{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    margin: 0px 5px;
+    padding: 15px;
+}
+        /* CSS NAVBAR */
+
+        /* CSS PROFILE CARD */
+.profileCard{
+    background: url(../img/background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 30px 0px;
+}
+.profileBox{
+    width: 50%;
+    background: url(../img/background-profile.jpg);
+    text-align: center;
+    padding: 40px 90px;
+    color: white;
+    position: relative absolute;
+    border-radius: 20px;
+    margin-top: 90px;
+    box-shadow: -1px 6px 31px 0px rgba(253,249,249,0.45);
+    -webkit-box-shadow: -1px 6px 31px 0px rgba(253,249,249,0.45);
+    -moz-box-shadow: -1px 6px 31px 0px rgba(253,249,249,0.45);
+}
+
+.imgProfile{
+    width: 225px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.namaProfile h3{
+    margin-bottom: 10px;
+}
+
+.sosmed{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.buttonProfile{
+    background-color: crimson;
+    color: white;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttonProfile:hover{
+    background-color: white;
+    color: black;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+        /* END CSS PROFILE CARD */
+
+        /* PENDIDIKAN */
+.riwayatPendidikan{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.alumni{
+    margin: auto;
+    width: 100%;
+}
+
+.alumni h2{
+    background-color: skyblue;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 1200;
+}
+
+.daftarSekolah{
+    margin-left: 13%;
+    background-color: blue;
+}
+
+.sd, .smp, .sma, .kuliah{
+    width: 15%;
+    height: 200px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px 10px 30px 10px;
+    margin: 30px 20px 40px 55px;
+    float: left;
+}
+
+.sd:hover, .smp:hover, .sma:hover, .kuliah:hover{
+    background-color: skyblue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sd img, .smp img, .sma img, .kuliah img{
+    width: 108px;
+    height: 105px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.sd h3,.smp h3,.sma h3,.kuliah h3{
+    margin-bottom: 5px;
+}
+        /* END PENDIDIKAN */
+
+        /* HOBI */
+.hobi{
+    background: url(../img/background2.jpg);
+    height: 320px;
+    margin-bottom: 25px;
+}
+
+.hobi h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1200;
+}
+
+.hobi hr{
+    width: 70%;
+    margin: auto;
+}
+
+.isiHobi{
+    margin-left: 25%;
+}
+
+.sepakbola, .mendaki, .coding{
+    width: 15%;
+    height: 170px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px 10px 30px 10px;
+    margin: 10px 20px 40px 55px;
+    float: left;
+    color: white;
+}
+
+.sepakbola img, .mendaki img, .coding img{
+    width: 110px;
+    height: 105px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+        /* END HOBI */
+
+        /* FOOTER */
+.footer{
+    background-color: #373737;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: white;
+}
+        /* END FOOTER */
+
+        /* GALERI */
+.fullGaleri{
+    width: 100%;
+    height: 1850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/background_galeri.jpg);
+    flex-direction: column;
+}
+
+.awalGaleri{
+    width: 100%;
+    text-align: center;
+}
+
+.awalGaleri h1{
+    font-size: 65px;
+    font-weight: 500;
+    color: whitesmoke;
+    font-family: "Brush Script MT";
+    padding-bottom: 7px;
+}
+
+.awalGaleri hr{
+    width: 70%;
+    margin: auto;
+}
+
+.isiGaleri{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px 0px;
+}
+
+.isiGaleri img{
+    padding:  10px;
+    margin: 0 10px 10px 10px;
+    width: 20%;
+    background-color: whitesmoke;
+}
+        /* END GALERI */
+
+        /* VIDEO */
+.fullVideo{
+    width: 100%;
+    height: 1550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/background_video.jpg);
+    flex-direction: column;
+}
+
+.awalVideo{
+    width: 100%;
+    text-align: center;
+}
+
+.awalVideo h1{
+    font-size: 65px;
+    font-weight: 500;
+    color: whitesmoke;
+    font-family: "Brush Script MT";
+    padding-bottom: 7px;
+}
+
+.awalVideo hr{
+    width: 60%;
+    margin: auto;
+}
+
+.isiVideo{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px 0px;;
+}
+
+.isiVideo video{
+    width: 70%;
+    border: 10px solid whitesmoke;
+    margin: 20px;
+}
+
+.isiVideo video controls{
+    position: relative absolute;
+}
+
+.isiVideo iframe{
+    width: 35%;
+    height: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 10px solid whitesmoke;
+}
+        /* END VIDEO */
+
+        /* JADWAL SHOLAT */
+.fullSholat{
+    font-family: 'Poppins', sans-serif;
+    height: 1430px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(../img/background_sholat.jpeg);
+    flex-direction: column;
+}
+
+.awalSholat{
+    width: 100%;
+    text-align: center;
+}
+
+.awalSholat h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.awalSholat hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+.isiSholat{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.isiSholat p{
+    text-align: left;
+    background-color: skyblue;
+    width: 470px;
+    padding: 5px;
+    color: black;
+    margin: auto;
+}
+
+.tableSholat{
+    width: 75%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.tableSholat tr th{
+    width: 100%;
+    background-color: crimson;
+    padding: 18px;
+    border: 1px solid #dee2e685;
+}
+
+.tableSholat tr td{
+    width: 100%;
+    background-color: #333;
+    padding: 8px;
+    border: 1px solid #dee2e685;
+}
+        /* END JADWAL SHOLAT */
+
+
+        /* KONTAK */
+.fullKontak{
+    font-family: 'Poppins', sans-serif;
+    height: 800px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/background_kontak.jpg);
+    flex-direction: column;
+}
+
+.awalKontak{
+    width: 100%;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.awalKontak h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.awalKontak hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.isiKontak{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.contactInfo{
+    width: 410px;
+    height: 395px;
+    background-color: rgb(243, 19, 63);
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 40px;
+}
+
+.contactInfo .boxKontak{
+    position: relative;
+    padding: 15px;
+    display: flex;
+}
+
+.contactInfo .boxKontak img{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo .boxKontak .textKontak{
+    display: flex;
+    margin-left: 10px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactInfo .boxKontak .textKontak h3{
+    font-weight: 300;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    font-family: "Impact";
+    font-size: 20px;
+}
+
+.kontakForm{
+    width: 40%;
+    padding: 40px;
+    background-color: white;
+    color: #333;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.kontakForm h3{
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.kontakForm .boxInput{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.kontakForm .boxInput input, .kontakForm .boxInput textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    background-color: white;
+}
+
+.kontakForm .boxInput span{
+    padding: 5px 0;
+    font-size: 14px;
+    margin: 10px 0;
+    color: #666;
+    pointer-events: none;
+}
+
+
+.kontakForm .boxInput button{
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+.kontakForm .boxInput button:hover{
+    background-color: crimson;
+    color: white;
+}
+        /* END KONTAK */
